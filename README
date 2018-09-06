@@ -8,7 +8,7 @@ as it allows for the extremely rapid recalculation of cross-sections when varyin
 APFELgrid generates FastKernel (or FK) tables which reduce the computation of NLO pQCD predictions 
 to a particuarly compact form in terms of PDFs at a single initial scale.
 
-<center>![FastKernel convolution](fk_convolution.png)</center>
+![FastKernel convolution](fk_convolution.png)
 
 These tables are used for fits in the [NNPDF](http://nnpdf.hepforge.org) series of PDF determinations.
 
@@ -66,9 +66,17 @@ For usage examples, see
 +	**/tests/example_gen.cc** for an FK table generation example
 +   **/tests/example_conv.cc** for an FK table convolution example
 
+Documentation
+-------------
+
+Documentation is generated with [docco](https://github.com/jashkenas/docco).
+   
+    ./docco_generate.sh
+
+
 Feedback
 --------
 
-For comments or questions please get in contact via either github or email (nathan.hartland@physics.ox.ac.uk).
+For comments or questions please get in contact via github.
 
 
